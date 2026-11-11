@@ -185,9 +185,9 @@ export function generateKabupatenContent(
   // 6. SEO
   // ==========================================
   // Meta title tanpa provinsi + fokus harga
-  const metaTitle = `Jasa Pembuatan Website di ${namaLengkap} - Mulai Rp 999rb`;
+  const metaTitle = `Jasa Pembuatan Website di ${namaLengkap} - Mulai Rp 399rb`;
 
-  const metaDescription = `Jasa pembuatan website profesional di ${namaLengkap}, ${prov}. Spesialis bisnis ${industriText}. Melayani ${jumlahKecamatan} kecamatan termasuk ${districtSample.text}. Mulai Rp 999rb, bergaransi.`;
+  const metaDescription = `Jasa pembuatan website profesional di ${namaLengkap}, ${prov}. Spesialis bisnis ${industriText}. Melayani ${jumlahKecamatan} kecamatan termasuk ${districtSample.text}. Mulai Rp 399rb, bergaransi.`;
 
   // ==========================================
   // 7. Hero
@@ -211,7 +211,7 @@ export function generateKabupatenContent(
   // 9. Why Us
   // ==========================================
   const whyUs = {
-    title: `Mengapa Bisnis ${nama} Pilih KerabatWeb?`,
+    title: `Mengapa Bisnis ${nama} Pilih Pasar.web.id?`,
     subtitle: `Kami paham karakter pasar ${namaLengkap}: ${budaya.toLowerCase()}.`,
     points: [
       {
@@ -287,7 +287,7 @@ export function generateKabupatenContent(
       a: `Paket Gold selesai 3-5 hari kerja, Platinum 7-10 hari, Diamond 2-3 minggu. Prosesnya sama cepatnya untuk klien di ${namaLengkap} dan seluruh ${prov}.`,
     },
     {
-      q: `Apakah KerabatWeb melayani klien dari ${namaLengkap} meski di luar kota?`,
+      q: `Apakah Pasar.web.id melayani klien dari ${namaLengkap} meski di luar kota?`,
       a: `Tentu. Kami bekerja 100% online via WhatsApp, Zoom, dan email. Sudah banyak klien kami dari ${namaLengkap} dan berbagai wilayah ${prov}.`,
     },
     {

@@ -44,7 +44,7 @@ export const blogPosts: BlogPost[] = [
       <p>Media sosial membatasi jumlah karakter dan tidak dirancang untuk menyajikan informasi teknis secara mendalam. Website memungkinkan Anda menyusun profil perusahaan, spesifikasi produk, harga, kebijakan pengembalian, hingga FAQ secara terstruktur dan mudah dinavigasi. User Experience (UX) yang baik inilah yang mendorong konversi.</p>
       <p>Dengan halaman produk yang lengkap, foto berkualitas tinggi, dan deskripsi yang jelas, calon pelanggan tidak perlu lagi bertanya via WhatsApp untuk hal-hal dasar. Ini menghemat waktu Anda dan meningkatkan efisiensi operasional.</p>
       <h2>Kesimpulan</h2>
-      <p>Di tahun 2026, website bukan lagi pilihan, melainkan kebutuhan utama bagi setiap bisnis yang ingin bertahan dan tumbuh. Website membangun kredibilitas, menjadi aset digital permanen, bekerja 24 jam, mendatangkan trafik organik, dan menyajikan informasi secara profesional. KerabatWeb hadir untuk membantu Anda membangun website profesional, cepat, aman, dan ramah SEO - sehingga Anda bisa fokus pada hal terpenting: mengembangkan bisnis Anda.</p>
+      <p>Di tahun 2026, website bukan lagi pilihan, melainkan kebutuhan utama bagi setiap bisnis yang ingin bertahan dan tumbuh. Website membangun kredibilitas, menjadi aset digital permanen, bekerja 24 jam, mendatangkan trafik organik, dan menyajikan informasi secara profesional. pasar.web.id hadir untuk membantu Anda membangun website profesional, cepat, aman, dan ramah SEO - sehingga Anda bisa fokus pada hal terpenting: mengembangkan bisnis Anda.</p>
     `,
   },
 
@@ -57,7 +57,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Jangan sampai salah pilih! Simak 7 tips jitu memilih vendor jasa pembuatan website agar uang dan waktu tidak terbuang sia-sia.",
     date: "5 November 2026",
     isoDate: "2026-11-05",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop",
     keywords: ["jasa pembuatan website", "tips memilih vendor website", "jasa website terpercaya", "vendor web development"],
     content: `
@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Website sepi pengunjung? Pelajari strategi konversi (CRO) untuk mengubah pengunjung menjadi pembeli setia.",
     date: "3 November 2026",
     isoDate: "2026-11-03",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1200&auto=format&fit=crop",
     keywords: ["meningkatkan penjualan online", "conversion rate optimization", "CRO website", "tips toko online"],
     content: `
@@ -136,7 +136,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Lebih dari 70% traffic berasal dari HP. Jika website tidak mobile-friendly, Anda kehilangan mayoritas pasar.",
     date: "1 November 2026",
     isoDate: "2026-11-01",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1200&auto=format&fit=crop",
     keywords: ["desain responsive", "mobile friendly website", "responsive web design", "UX website"],
     content: `
@@ -160,8 +160,8 @@ export const blogPosts: BlogPost[] = [
       <h2>5. Meningkatkan Jangkauan Audiens</h2>
       <p>Di banyak negara berkembang, termasuk Indonesia, mayoritas pengguna internet hanya mengakses melalui smartphone dan tidak pernah menyentuh komputer atau laptop. Jika website Anda tidak responsive, Anda secara efektif kehilangan mayoritas populasi internet Indonesia.</p>
       <p>Desain responsive membuka pintu bagi seluruh spektrum pengguna, dari anak muda yang selalu menggunakan HP hingga eksekutif yang mengakses melalui tablet saat dalam perjalanan.</p>
-      <h2>Pendekatan KerabatWeb: Mobile-First</h2>
-      <p>Di KerabatWeb, kami menggunakan pendekatan Mobile-First dalam setiap proyek. Artinya, kami mendesain versi mobile terlebih dahulu, kemudian memperluasnya ke tablet dan desktop. Pendekatan ini memastikan pengalaman terbaik untuk mayoritas pengguna, sekaligus memaksa kita untuk benar-benar fokus pada elemen-elemen esensial.</p>
+      <h2>Pendekatan pasar.web.id: Mobile-First</h2>
+      <p>Di pasar.web.id, kami menggunakan pendekatan Mobile-First dalam setiap proyek. Artinya, kami mendesain versi mobile terlebih dahulu, kemudian memperluasnya ke tablet dan desktop. Pendekatan ini memastikan pengalaman terbaik untuk mayoritas pengguna, sekaligus memaksa kita untuk benar-benar fokus pada elemen-elemen esensial.</p>
       <p>Kami menggunakan framework CSS modern seperti Tailwind CSS yang memungkinkan implementasi desain responsive dengan cepat, konsisten, dan mudah dirawat.</p>
       <h2>Kesimpulan</h2>
       <p>Website responsive adalah standar wajib di tahun 2026. Tanpa desain responsive, Anda akan kesulitan mendapat peringkat di Google, menghadapi tingkat bounce rate yang tinggi, kehilangan potensi penjualan, dan mengeluarkan biaya development yang lebih besar. Jangan anggap remeh hal ini - investasikan waktu dan sumber daya yang cukup untuk memastikan website Anda nyaman digunakan di semua ukuran layar.</p>
@@ -177,7 +177,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Bisnis lokal kalah dari kompetitor besar? Gunakan strategi Local SEO untuk mendominasi pencarian di area Anda.",
     date: "30 Oktober 2026",
     isoDate: "2026-10-30",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1571677246347-5040036b95cc?q=80&w=1200&auto=format&fit=crop",
     keywords: ["SEO UMKM", "local SEO", "Google Business Profile", "bisnis lokal", "SEO lokal"],
     content: `
@@ -215,7 +215,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Hosting adalah fondasi website. Jangan tergiur harga murah yang justru membuat website sering down.",
     date: "28 Oktober 2026",
     isoDate: "2026-10-28",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1200&auto=format&fit=crop",
     keywords: ["memilih hosting", "hosting terbaik", "shared hosting vs VPS", "hosting bisnis"],
     content: `
@@ -263,7 +263,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "CMS memungkinkan Anda mengubah konten website sendiri tanpa harus paham pemrograman.",
     date: "25 Oktober 2026",
     isoDate: "2026-10-25",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop",
     keywords: ["apa itu CMS", "content management system", "WordPress", "CMS untuk bisnis"],
     content: `
@@ -321,7 +321,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Membangun brand bukan hanya tentang logo. Pelajari elemen penting dalam membangun identitas digital bisnis.",
     date: "22 Oktober 2026",
     isoDate: "2026-10-22",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1200&auto=format&fit=crop",
     keywords: ["branding digital", "branding UMKM", "identitas bisnis", "panduan branding pemula"],
     content: `
@@ -366,7 +366,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Kompetitor bermunculan setiap hari. Bagaimana cara UMKM bertahan dan tumbuh di tengah persaingan digital?",
     date: "20 Oktober 2026",
     isoDate: "2026-10-20",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop",
     keywords: ["persaingan bisnis digital", "strategi UMKM", "bersaing di era digital", "competitive advantage"],
     content: `
@@ -413,7 +413,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Desain website kaku sudah usang. Intip tren desain web terbaru di tahun 2026 yang fokus pada estetika dan performa.",
     date: "18 Oktober 2026",
     isoDate: "2026-10-18",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1541462608143-67571c6738dd?q=80&w=1200&auto=format&fit=crop",
     keywords: ["tren desain website 2026", "web design terbaru", "desain web modern", "UI UX 2026"],
     content: `
@@ -459,7 +459,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Website Anda bisa diretas kapan saja jika tidak diamankan. Pelajari jenis ancaman cyber dan cara melindungi aset digital bisnis Anda.",
     date: "15 Oktober 2026",
     isoDate: "2026-10-15",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=1200&auto=format&fit=crop",
     keywords: ["keamanan website", "ancaman cyber", "cara melindungi website", "keamanan data bisnis"],
     content: `
@@ -514,7 +514,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Desain hanya menarik perhatian, kata-kata yang meyakinkan yang mendorong penjualan. Simak formula copywriting untuk website bisnis Anda.",
     date: "12 Oktober 2026",
     isoDate: "2026-10-12",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1200&auto=format&fit=crop",
     keywords: ["copywriting website", "cara menulis copywriting", "copywriting yang menjual", "formula AIDA"],
     content: `
@@ -562,7 +562,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Website lemot bikin pengunjung kabur. Ketahui faktor-faktor yang membuat website melambat dan cara mengatasinya.",
     date: "10 Oktober 2026",
     isoDate: "2026-10-10",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop",
     keywords: ["website lambat", "optimasi kecepatan website", "penyebab website lemot", "page speed"],
     content: `
@@ -593,7 +593,7 @@ export const blogPosts: BlogPost[] = [
       <p>Untuk website berbasis CMS, database yang tidak dirawat bisa menjadi lambat karena penumpukan data seperti revisi, spam comment, atau transients yang tidak dibersihkan.</p>
       <p><strong>Solusi:</strong> Bersihkan database secara rutin dari data yang tidak perlu. Optimasi tabel database. Batasi jumlah revisi artikel. Gunakan plugin pembersih database untuk WordPress.</p>
       <h2>Kesimpulan</h2>
-      <p>Website lambat adalah masalah yang harus segera diatasi. Mulailah dengan mengukur performa website Anda menggunakan Google PageSpeed Insights atau GTmetrix. Identifikasi penyebab utama, lalu terapkan solusi satu per satu. Di KerabatWeb, semua website yang kami bangun telah melalui optimasi kecepatan ketat - mulai dari kompresi gambar, caching, CDN, hingga kode yang bersih dan efisien. Jangan biarkan website lambat menghilangkan pelanggan Anda.</p>
+      <p>Website lambat adalah masalah yang harus segera diatasi. Mulailah dengan mengukur performa website Anda menggunakan Google PageSpeed Insights atau GTmetrix. Identifikasi penyebab utama, lalu terapkan solusi satu per satu. Di pasar.web.id, semua website yang kami bangun telah melalui optimasi kecepatan ketat - mulai dari kompresi gambar, caching, CDN, hingga kode yang bersih dan efisien. Jangan biarkan website lambat menghilangkan pelanggan Anda.</p>
     `,
   },
 
@@ -606,7 +606,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Bingung memilih jenis website untuk bisnis Anda? Pahami perbedaan mendasar antara Landing Page dan Company Profile.",
     date: "7 Oktober 2026",
     isoDate: "2026-10-07",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=1200&auto=format&fit=crop",
     keywords: ["landing page vs company profile", "jenis website bisnis", "perbedaan landing page", "company profile"],
     content: `
@@ -695,7 +695,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Konten adalah raja. Tapi konten seperti apa yang benar-benar bisa mendatangkan pelanggan? Pelajari strateginya di sini.",
     date: "4 Oktober 2026",
     isoDate: "2026-10-04",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1200&auto=format&fit=crop",
     keywords: ["strategi konten", "content marketing", "content strategy bisnis", "kalender konten"],
     content: `
@@ -762,7 +762,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Bagi pemula, istilah domain dan hosting mungkin membingungkan. Analogi sederhana ini akan membantu Anda memahaminya dalam 1 menit.",
     date: "1 Oktober 2026",
     isoDate: "2026-10-01",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=1200&auto=format&fit=crop",
     keywords: ["apa itu domain", "apa itu hosting", "domain dan hosting", "panduan website pemula"],
     content: `
@@ -776,11 +776,11 @@ export const blogPosts: BlogPost[] = [
       </ol>
       <p>Jika Anda memiliki tanah dan bangunan (hosting) tetapi tidak punya alamat (domain), tidak ada yang bisa menemukan rumah Anda. Sebaliknya, jika Anda memiliki alamat (domain) tetapi tidak punya rumah (hosting), alamat itu tidak mengarah ke manapun. Keduanya harus ada.</p>
       <h2>Lebih Dalam Tentang Domain</h2>
-      <p>Domain adalah nama unik yang Anda sewa untuk mengenali website Anda di internet. Contoh: <code>kerabatweb.com</code>, <code>google.com</code>, atau <code>tokopedia.com</code>.</p>
+      <p>Domain adalah nama unik yang Anda sewa untuk mengenali website Anda di internet. Contoh: <code>pasar.web.id.com</code>, <code>google.com</code>, atau <code>tokopedia.com</code>.</p>
       <h3>Struktur Domain</h3>
       <p>Domain terdiri dari dua bagian:</p>
       <ul>
-        <li><strong>Nama (SLD - Second Level Domain):</strong> Bagian yang Anda pilih sendiri, misal "kerabatweb" atau "tokopedia".</li>
+        <li><strong>Nama (SLD - Second Level Domain):</strong> Bagian yang Anda pilih sendiri, misal "pasar.web.id" atau "tokopedia".</li>
         <li><strong>Ekstensi (TLD - Top Level Domain):</strong> Bagian setelah titik, misal <code>.com</code>, <code>.id</code>, <code>.co.id</code>, <code>.net</code>, atau <code>.org</code>.</li>
       </ul>
       <h3>Tips Memilih Domain</h3>
@@ -822,7 +822,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       <p>Untuk bisnis yang serius, investasi pada domain dan hosting berbayar adalah keharusan. Kesan profesional dan keandalan sangat sepadan dengan biayanya.</p>
       <h2>Kesimpulan</h2>
-      <p>Domain adalah alamat website Anda, sementara hosting adalah rumahnya. Keduanya wajib dimiliki untuk bisa menjalankan website di internet. Di KerabatWeb, paket Gold ke atas sudah termasuk domain gratis 1 tahun dan hosting performa tinggi, sehingga Anda tidak perlu repot memikirkan urusan teknis dan bisa fokus pada pengembangan bisnis Anda.</p>
+      <p>Domain adalah alamat website Anda, sementara hosting adalah rumahnya. Keduanya wajib dimiliki untuk bisa menjalankan website di internet. Di pasar.web.id, paket Gold ke atas sudah termasuk domain gratis 1 tahun dan hosting performa tinggi, sehingga Anda tidak perlu repot memikirkan urusan teknis dan bisa fokus pada pengembangan bisnis Anda.</p>
     `,
   },
 
@@ -835,7 +835,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Banyak yang bertanya, kalau sudah punya Instagram, masih perlukah punya website? Ini jawaban lengkapnya.",
     date: "28 September 2026",
     isoDate: "2026-09-28",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1200&auto=format&fit=crop",
     keywords: ["website vs media sosial", "pentingnya website", "media sosial bisnis", "digital marketing strategy"],
     content: `
@@ -882,7 +882,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Apakah biaya pembuatan website sepadan dengan hasilnya? Pelajari cara mengukur keuntungan dari investasi website Anda.",
     date: "25 September 2026",
     isoDate: "2026-09-25",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=1200&auto=format&fit=crop",
     keywords: ["ROI website", "menghitung ROI", "return on investment website", "efektivitas website bisnis"],
     content: `
@@ -963,7 +963,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Mengelola website tanpa data itu seperti menyetir dengan mata tertutup. Ini alasan mengapa Google Analytics sangat vital.",
     date: "22 September 2026",
     isoDate: "2026-09-22",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop",
     keywords: ["Google Analytics", "analytics website", "data pengunjung website", "web analytics"],
     content: `
@@ -1011,7 +1011,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       <p>Untuk sebagian besar bisnis, Google Analytics tetap menjadi pilihan paling lengkap dan gratis. Tetapi jika Anda memiliki kekhawatiran tentang privasi, alternatif di atas layak dipertimbangkan.</p>
       <h2>Kesimpulan</h2>
-      <p>Google Analytics adalah alat yang wajib dipasang di setiap website bisnis. Tanpa data, Anda hanya menebak-nebak. Dengan data, Anda bisa membuat keputusan yang didasarkan pada perilaku nyata pengunjung Anda - dan itu adalah kunci untuk pertumbuhan bisnis yang berkelanjutan. Di KerabatWeb, kami selalu menyarankan dan membantu pemasangan Google Analytics untuk setiap klien sejak hari pertama peluncuran website.</p>
+      <p>Google Analytics adalah alat yang wajib dipasang di setiap website bisnis. Tanpa data, Anda hanya menebak-nebak. Dengan data, Anda bisa membuat keputusan yang didasarkan pada perilaku nyata pengunjung Anda - dan itu adalah kunci untuk pertumbuhan bisnis yang berkelanjutan. Di pasar.web.id, kami selalu menyarankan dan membantu pemasangan Google Analytics untuk setiap klien sejak hari pertama peluncuran website.</p>
     `,
   },
 
@@ -1024,7 +1024,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Teknologi web bergerak sangat cepat. Intip bagaimana AI, Next.js, dan teknologi terbaru akan mengubah cara bisnis berinteraksi.",
     date: "20 September 2026",
     isoDate: "2026-09-20",
-    author: "Tim KerabatWeb",
+    author: "Tim pasar.web.id",
     image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&auto=format&fit=crop",
     keywords: ["masa depan web development", "AI web development", "Next.js", "teknologi web terbaru"],
     content: `

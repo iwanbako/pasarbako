@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Header } from "@/components/common/Header";
 import { Footer } from "@/components/common/Footer";
 
-const SITE_URL = "https://kerabatweb.com";
+const SITE_URL = "https://pasar.web.id.com";
 
 // ============================================================
 // METADATA SEO
@@ -12,14 +12,14 @@ const SITE_URL = "https://kerabatweb.com";
 export const metadata: Metadata = {
   title: "Syarat & Ketentuan",
   description:
-    "Syarat dan Ketentuan layanan KerabatWeb. Pelajari aturan main, hak, dan kewajiban Anda sebagai klien sebelum memesan jasa pembuatan website.",
+    "Syarat dan Ketentuan layanan pasar.web.id. Pelajari aturan main, hak, dan kewajiban Anda sebagai klien sebelum memesan jasa pembuatan website.",
   alternates: {
     canonical: `${SITE_URL}/syarat-ketentuan`,
   },
   openGraph: {
-    title: "Syarat & Ketentuan | KerabatWeb",
+    title: "Syarat & Ketentuan | pasar.web.id",
     description:
-      "Aturan main, hak, dan kewajiban klien KerabatWeb saat memesan jasa pembuatan website.",
+      "Aturan main, hak, dan kewajiban klien pasar.web.id saat memesan jasa pembuatan website.",
     url: `${SITE_URL}/syarat-ketentuan`,
     type: "website",
   },
@@ -56,13 +56,13 @@ export default function SyaratKetentuanPage() {
               
               {/* Intro */}
               <p className="lead text-base sm:text-lg text-white mb-8">
-                Selamat datang di <strong>KerabatWeb</strong>. Syarat dan Ketentuan ini mengatur penggunaan layanan jasa pembuatan website yang kami sediakan. Dengan melakukan pemesanan, melakukan pembayaran, atau menggunakan layanan kami, Anda dianggap telah membaca, memahami, dan menyetujui seluruh isi Syarat & Ketentuan ini.
+                Selamat datang di <strong>pasar.web.id</strong>. Syarat dan Ketentuan ini mengatur penggunaan layanan jasa pembuatan website yang kami sediakan. Dengan melakukan pemesanan, melakukan pembayaran, atau menggunakan layanan kami, Anda dianggap telah membaca, memahami, dan menyetujui seluruh isi Syarat & Ketentuan ini.
               </p>
 
               {/* Section 1 */}
               <h2 className="text-xl sm:text-2xl mt-10 mb-4">1. Lingkup Layanan</h2>
               <p className="mb-4">
-                KerabatWeb menyediakan layanan pembuatan website, meliputi:
+                pasar.web.id menyediakan layanan pembuatan website, meliputi:
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-6">
                 <li>Desain dan pengembangan Landing Page, Company Profile, dan E-Commerce.</li>
@@ -102,20 +102,20 @@ export default function SyaratKetentuanPage() {
               <h2 className="text-xl sm:text-2xl mt-10 mb-4">5. Hak Cipta dan Kepemilikan</h2>
               <ul className="list-disc pl-6 space-y-2 mb-6">
                 <li>Setelah pelunasan 100%, seluruh hak akses (cPanel, akun WordPress, domain, dan source code) sepenuhnya menjadi milik klien.</li>
-                <li>KerabatWeb berhak menggunakan hasil karya (screenshot website) sebagai bagian dari portofolio kami, kecuali klien secara tertulis meminta sebaliknya (NDA).</li>
+                <li>pasar.web.id berhak menggunakan hasil karya (screenshot website) sebagai bagian dari portofolio kami, kecuali klien secara tertulis meminta sebaliknya (NDA).</li>
               </ul>
 
               {/* Section 6 */}
               <h2 className="text-xl sm:text-2xl mt-10 mb-4">6. Pembatalan dan Pengembalian Dana</h2>
               <ul className="list-disc pl-6 space-y-2 mb-6">
                 <li>Pembatalan oleh klien setelah DP dibayarkan dan pengerjaan dimulai <strong>tidak dapat diuangkan kembali</strong> (DP hangus), karena kami telah mengalokasikan waktu dan tenaga untuk proyek tersebut.</li>
-                <li>Jika pembatalan dilakukan oleh pihak KerabatWeb karena alasan tertentu, kami akan mengembalikan dana secara proporsional sesuai progres pengerjaan.</li>
+                <li>Jika pembatalan dilakukan oleh pihak pasar.web.id karena alasan tertentu, kami akan mengembalikan dana secara proporsional sesuai progres pengerjaan.</li>
               </ul>
 
               {/* Section 7 */}
               <h2 className="text-xl sm:text-2xl mt-10 mb-4">7. Batasan Tanggung Jawab</h2>
               <p className="mb-6">
-                KerabatWeb tidak bertanggung jawab atas kerugian finansial atau non-finansial yang timbul dari kegagalan server hosting pihak ketiga, perubahan kebijakan algoritma Google, atau tindakan peretasan yang tidak dapat dicegah secara wajar.
+                pasar.web.id tidak bertanggung jawab atas kerugian finansial atau non-finansial yang timbul dari kegagalan server hosting pihak ketiga, perubahan kebijakan algoritma Google, atau tindakan peretasan yang tidak dapat dicegah secara wajar.
               </p>
 
               {/* Section 8 */}
@@ -131,7 +131,7 @@ export default function SyaratKetentuanPage() {
               </p>
               <div className="bg-[#003580] p-5 rounded-xl border border-[#0066f5] inline-block">
                 <p className="m-0 text-sm">
-                  📧 Email: <strong>halo@kerabatweb.com</strong><br />
+                  📧 Email: <strong>halo@pasar.web.id.com</strong><br />
                   📱 WhatsApp: <strong>+62 859-3857-3419</strong>
                 </p>
               </div>

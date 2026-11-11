@@ -6,7 +6,7 @@ import datetime
 # ==========================================
 # KONFIGURASI
 # ==========================================
-SITE_URL = "https://kerabatweb.com"
+SITE_URL = "https://pasar.web.id"
 TODAY = datetime.datetime.now().strftime("%Y-%m-%d")
 
 # Path file (sudah disesuaikan dengan folder data/)

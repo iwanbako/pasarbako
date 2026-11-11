@@ -6,7 +6,7 @@ import { Header } from "@/components/common/Header";
 import { Footer } from "@/components/common/Footer";
 import { FinalCtaSection } from "@/components/sections/FinalCtaSection";
 
-const SITE_URL = "https://kerabatweb.com";
+const SITE_URL = "https://pasar.web.id";
 const waNumber = "6285938573419";
 
 // ============================================================
@@ -14,13 +14,13 @@ const waNumber = "6285938573419";
 // ============================================================
 export const metadata: Metadata = {
   title: "Tentang Kami",
-  description: "Kenali KerabatWeb lebih dekat. Kami adalah tim profesional yang berdedikasi membantu UMKM dan bisnis di Indonesia tampil di dunia digital dengan website cepat, aman, dan SEO-friendly.",
+  description: "Kenali pasar.web.id lebih dekat. Kami adalah tim profesional yang berdedikasi membantu UMKM dan bisnis di Indonesia tampil di dunia digital dengan website cepat, aman, dan SEO-friendly.",
   alternates: {
     canonical: `${SITE_URL}/tentang-kami`,
   },
   openGraph: {
-    title: "Tentang KerabatWeb - Jasa Pembuatan Website Profesional",
-    description: "Kenali tim di balik KerabatWeb dan komitmen kami membantu bisnis Anda berkembang di internet.",
+    title: "Tentang pasar.web.id - Jasa Pembuatan Website Profesional",
+    description: "Kenali tim di balik pasar.web.id dan komitmen kami membantu bisnis Anda berkembang di internet.",
     url: `${SITE_URL}/tentang-kami`,
   },
 };
@@ -43,7 +43,7 @@ export default function TentangKamiPage() {
               Membantu Bisnis Anda <span className="text-[#FEBB02]">Go Digital</span> Tanpa Ribet
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-blue-100 leading-relaxed">
-              KerabatWeb lahir dari satu visi sederhana: membuat website berkualitas tinggi bisa diakses oleh siapa saja, termasuk UMKM dan bisnis lokal di seluruh Indonesia.
+              pasar.web.id lahir dari satu visi sederhana: membuat website berkualitas tinggi bisa diakses oleh siapa saja, termasuk UMKM dan bisnis lokal di seluruh Indonesia.
             </p>
           </div>
         </section>
@@ -59,7 +59,7 @@ export default function TentangKamiPage() {
                 Kami melihat banyak pemilik bisnis hebat yang memiliki produk luar biasa, tetapi kesulitan bersaing di internet karena terkendala biaya dan teknis.
               </p>
               <p className="text-sm sm:text-base text-blue-100 leading-relaxed">
-                Itulah mengapa KerabatWeb hadir. Kami merancang sistem, proses, dan tim yang efisien agar bisa memberikan layanan kelas *enterprise* dengan harga yang sangat bersahabat untuk Anda.
+                Itulah mengapa pasar.web.id hadir. Kami merancang sistem, proses, dan tim yang efisien agar bisa memberikan layanan kelas *enterprise* dengan harga yang sangat bersahabat untuk Anda.
               </p>
             </div>
             <div className="w-full md:w-1/2 grid grid-cols-2 gap-4">

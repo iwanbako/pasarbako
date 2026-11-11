@@ -17,7 +17,7 @@ export const sumatra: Record<string, ProvinsiContent> = {
       subtitle: "Solusi digital untuk warung kopi, kafe, toko souvenir, hingga instansi pendidikan di seluruh Aceh.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Aceh Memilih KerabatWeb?",
+      title: "Mengapa Bisnis Aceh Memilih pasar.web.id?",
       subtitle: "Kami paham karakter pasar Aceh, dari wisatawan hingga bisnis syariah. Kami susun website yang tepat sasaran.",
       points: [
         {
@@ -65,7 +65,7 @@ export const sumatra: Record<string, ProvinsiContent> = {
     pricingNote: "Harga transparan tanpa biaya tersembunyi. Berlaku untuk seluruh wilayah Aceh.",
     faqs: [
       {
-        q: "Apakah KerabatWeb bisa handle proyek dari Aceh meski di luar pulau?",
+        q: "Apakah pasar.web.id bisa handle proyek dari Aceh meski di luar pulau?",
         a: "Tentu. Kami bekerja 100% online via WhatsApp, Zoom, dan email. Banyak klien kami dari Aceh, Sumatera, hingga Papua. Komunikasi tetap lancar.",
       },
       {
@@ -107,7 +107,7 @@ export const sumatra: Record<string, ProvinsiContent> = {
       subtitle: "Untuk kuliner Medan, travel Danau Toba, properti Deli Serdang, hingga startup digital di seluruh Sumut.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Sumut Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Sumut Pilih pasar.web.id?",
       subtitle: "Pasar Sumut kompetitif. Website yang tepat adalah pembeda antara bisnis yang tenggelam dan yang naik kelas.",
       points: [
         {
@@ -197,7 +197,7 @@ export const sumatra: Record<string, ProvinsiContent> = {
       subtitle: "Cocok untuk restoran Padang, toko kain, jasa travel, hingga bisnis properti di seluruh Sumbar.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Sumbar Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Sumbar Pilih pasar.web.id?",
       subtitle: "Semangat Alam Takambang Jadi Guru kami terjemahkan dalam desain website yang fungsional dan estetik.",
       points: [
         {
@@ -240,7 +240,7 @@ export const sumatra: Record<string, ProvinsiContent> = {
     },
     testimonial: {
       title: "Testimoni Klien dari Sumatera Barat",
-      subtitle: "Kata mereka yang sudah merasakan manfaat website KerabatWeb.",
+      subtitle: "Kata mereka yang sudah merasakan manfaat website pasar.web.id.",
     },
     pricingNote: "Harga berlaku untuk seluruh Sumbar, tanpa biaya tambahan.",
     faqs: [
@@ -287,7 +287,7 @@ export const sumatra: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Pekanbaru, bisnis sawit, properti, hingga travel di seluruh Riau.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Riau Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Riau Pilih pasar.web.id?",
       subtitle: "Riau adalah pusat ekonomi Sumatera bagian tengah. Website yang tepat jadi tiket masuk pasar digital.",
       points: [
         {
@@ -377,7 +377,7 @@ export const sumatra: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM batik Jambi, kuliner, jasa travel, hingga instansi pendidikan di seluruh Jambi.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Jambi Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Jambi Pilih pasar.web.id?",
       subtitle: "Jambi punya potensi besar: batik, wisata, dan hasil bumi. Website yang tepat akan mengangkat bisnis Anda.",
       points: [
         {
@@ -420,7 +420,7 @@ export const sumatra: Record<string, ProvinsiContent> = {
     },
     testimonial: {
       title: "Testimoni Klien dari Jambi",
-      subtitle: "Cerita dari klien yang sudah merasakan dampak website KerabatWeb.",
+      subtitle: "Cerita dari klien yang sudah merasakan dampak website pasar.web.id.",
     },
     pricingNote: "Harga berlaku untuk seluruh wilayah Jambi, tanpa biaya tambahan.",
     faqs: [
@@ -467,7 +467,7 @@ export const sumatra: Record<string, ProvinsiContent> = {
       subtitle: "Untuk pempek Palembang, UMKM kriya, properti, hingga travel di seluruh Sumsel.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Sumsel Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Sumsel Pilih pasar.web.id?",
       subtitle: "Sumsel adalah pusat ekonomi Sumatera bagian selatan. Website yang tepat akan membawa bisnis Anda ke panggung nasional.",
       points: [
         {
@@ -557,7 +557,7 @@ export const sumatra: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner, wisata pantai, hingga bisnis pertanian di seluruh Bengkulu.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Bengkulu Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Bengkulu Pilih pasar.web.id?",
       subtitle: "Bengkulu punya potensi wisata dan pertanian besar. Website yang tepat adalah kunci untuk mengeksposnya.",
       points: [
         {
@@ -647,7 +647,7 @@ export const sumatra: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kopi Lampung, wisata, retail, hingga bisnis jasa di seluruh provinsi Lampung.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Lampung Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Lampung Pilih pasar.web.id?",
       subtitle: "Lampung adalah gerbang Sumatera. Website yang tepat akan membawa bisnis Anda ke pasar yang lebih luas.",
       points: [
         {
@@ -690,7 +690,7 @@ export const sumatra: Record<string, ProvinsiContent> = {
     },
     testimonial: {
       title: "Testimoni Klien dari Lampung",
-      subtitle: "Kata mereka yang sudah merasakan dampak website KerabatWeb.",
+      subtitle: "Kata mereka yang sudah merasakan dampak website pasar.web.id.",
     },
     pricingNote: "Harga berlaku untuk seluruh Lampung, tanpa biaya tambahan.",
     faqs: [
@@ -737,7 +737,7 @@ export const sumatra: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner, wisata bahari, hingga bisnis tambang di seluruh Babel.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Babel Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Babel Pilih pasar.web.id?",
       subtitle: "Babel punya potensi wisata dan hasil laut besar. Website yang tepat akan mengeksposnya ke seluruh Indonesia.",
       points: [
         {

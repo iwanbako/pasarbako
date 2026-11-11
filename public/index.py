@@ -3,7 +3,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 # --- KONFIGURASI KERABATWEB.COM ---
-DOMAIN = "kerabatweb.com"
+DOMAIN = "pasar.web.id"
 INDEXNOW_KEY = "e881f42fe4d749538b7e95195a6c9da0"
 
 SITEMAP_URL = f"https://{DOMAIN}/sitemap.xml"

@@ -5,30 +5,30 @@ import { Footer } from "@/components/common/Footer";
 import { blogPosts } from "@/data/blog-posts";
 import { BlogList } from "./BlogList";
 
-const SITE_URL = "https://kerabatweb.com";
+const SITE_URL = "https://pasar.web.id";
 
 export const metadata: Metadata = {
   title: "Blog & Artikel",
   description:
-    "Kumpulan artikel, tips bisnis, dan panduan seputar dunia website dari KerabatWeb. Belajar go-digital untuk bisnis Anda.",
+    "Kumpulan artikel, tips bisnis, dan panduan seputar dunia website dari pasar.web.id. Belajar go-digital untuk bisnis Anda.",
   keywords: [
     "blog bisnis online",
     "tips website",
     "artikel digital marketing",
-    "kerabatweb blog",
+    "pasar.web.id blog",
   ],
   alternates: { canonical: `${SITE_URL}/blog` },
   openGraph: {
-    title: "Blog & Artikel | KerabatWeb",
+    title: "Blog & Artikel | pasar.web.id",
     description:
       "Tips bisnis, panduan website, dan insight digital untuk membantu bisnis Anda tumbuh.",
     url: `${SITE_URL}/blog`,
     type: "website",
-    siteName: "KerabatWeb",
+    siteName: "pasar.web.id",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blog & Artikel | KerabatWeb",
+    title: "Blog & Artikel | pasar.web.id",
     description:
       "Tips bisnis, panduan website, dan insight digital untuk membantu bisnis Anda tumbuh.",
   },
@@ -50,10 +50,10 @@ function BlogJsonLd() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    name: "Blog & Artikel KerabatWeb",
+    name: "Blog & Artikel pasar.web.id",
     url: `${SITE_URL}/blog`,
     description:
-      "Kumpulan artikel, tips bisnis, dan panduan seputar dunia website dari KerabatWeb.",
+      "Kumpulan artikel, tips bisnis, dan panduan seputar dunia website dari pasar.web.id.",
     blogPost: sortedPosts.slice(0, 10).map((post) => ({
       "@type": "BlogPosting",
       headline: post.title,

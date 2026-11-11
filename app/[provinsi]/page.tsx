@@ -20,12 +20,12 @@ import { PricingSection } from "@/components/sections/PricingSection";
 import { FaqSection } from "@/components/sections/FaqSection";
 import { FinalCtaSection } from "@/components/sections/FinalCtaSection";
 import { ProvinsiRegenciesSection } from "@/components/sections/ProvinsiRegenciesSection";
-import { MapSection } from "@/components/sections/MapSection"; // ← TAMBAH
+import { MapSection } from "@/components/sections/MapSection";
 
 import { provinsiContent } from "@/data/provinsi-content";
 import { getRegenciesOfProvince } from "@/lib/wilayah";
 
-const SITE_URL = "https://kerabatweb.com";
+const SITE_URL = "https://pasar.web.id";
 const waNumber = "6285938573419";
 const waLink = (msg: string) =>
   `https://wa.me/${waNumber}?text=${encodeURIComponent(msg)}`;
@@ -55,7 +55,7 @@ export async function generateMetadata({
       url,
       title: content.metaTitle,
       description: content.metaDescription,
-      siteName: "KerabatWeb",
+      siteName: "pasar.web.id",
       images: [
         {
           url: `${SITE_URL}/og-image.jpg`,
@@ -88,12 +88,12 @@ const pricingData = [
   {
     name: "Gold",
     target: "Paket Website Landing Page / UMKM",
-    priceNormal: "Rp 2.500.000",
-    pricePromo: "Rp 999.000",
-    diskon: "Diskon 60%",
+    priceNormal: "Rp 1.500.000",
+    pricePromo: "Rp 399.000",
+    diskon: "Diskon 73%",
     periode: "PER TAHUN",
     popular: false,
-    badge: null,
+    badge: "Hemat",
     features: [
       "Hosting 1 Tahun",
       "Gratis Domain",
@@ -184,7 +184,7 @@ const pricingData = [
 ];
 
 // ------------------------------------------------------------
-// PAGE (default export async — tanpa Suspense)
+// PAGE
 // ------------------------------------------------------------
 export default async function ProvinsiPage({ params }: PageProps) {
   const { provinsi } = await params;
@@ -194,38 +194,29 @@ export default async function ProvinsiPage({ params }: PageProps) {
 
   const url = `${SITE_URL}/${provinsi}`;
 
-  // ============================================================
-  // Kabupaten/Kota di provinsi ini
-  // ============================================================
   const regencies = getRegenciesOfProvince(provinsi).map((r) => ({
     name: r.name,
     slug: r.slug,
   }));
 
-  // ============================================================
-  // TRIK AGGREGATE RATING DINAMIS (Berbeda tiap provinsi)
-  // ============================================================
   const ratingBase = 4.75 + ((provinsi.length * 7) % 25) / 100;
   const reviewCount = 150 + ((provinsi.length * 123) % 800);
 
-  // ============================================================
-  // JSON-LD: PRODUCT SCHEMA
-  // ============================================================
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: `Jasa Pembuatan Website ${content.nama}`,
     image: `${SITE_URL}/og-image.jpg`,
-    description: `Jasa pembuatan website profesional untuk bisnis, sekolah, dan company profile perusahaan di ${content.nama}. Perluas jangkauan usaha Anda dengan website dari KerabatWeb.`,
+    description: `Jasa pembuatan website profesional untuk bisnis, sekolah, dan company profile perusahaan di ${content.nama}. Perluas jangkauan usaha Anda dengan website dari pasar.web.id.`,
     brand: {
       "@type": "Brand",
-      name: "KerabatWeb",
+      name: "pasar.web.id",
     },
     offers: {
       "@type": "AggregateOffer",
       url: url,
       priceCurrency: "IDR",
-      lowPrice: "999000",
+      lowPrice: "399000",
       highPrice: "4500000",
       offerCount: "3",
       priceValidUntil: "2026-12-31",
@@ -239,9 +230,6 @@ export default async function ProvinsiPage({ params }: PageProps) {
     },
   };
 
-  // ============================================================
-  // BREADCRUMB ITEMS
-  // ============================================================
   const breadcrumbItems = [
     { label: "Beranda", href: "/" },
     { label: content.nama },
@@ -249,7 +237,6 @@ export default async function ProvinsiPage({ params }: PageProps) {
 
   return (
     <>
-      {/* Structured Data (Product Schema) */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -261,7 +248,6 @@ export default async function ProvinsiPage({ params }: PageProps) {
         <Breadcrumb items={breadcrumbItems} />
 
         <main className="flex-1 w-full">
-          {/* HERO — SWAP: badge tampil sebagai H1, headline tampil sebagai badge */}
           <HeroSection
             waNumber={waNumber}
             badge={content.hero.headline}
@@ -326,7 +312,6 @@ export default async function ProvinsiPage({ params }: PageProps) {
             regencies={regencies}
           />
 
-          {/* PETA AREA LAYANAN — otomatis deteksi slug => peta batas provinsi (z=7) */}
           <MapSection />
         </main>
 
@@ -334,7 +319,7 @@ export default async function ProvinsiPage({ params }: PageProps) {
 
         <FloatingNav
           waDefault={waLink(
-            `Halo KerabatWeb, saya dari ${content.nama} ingin konsultasi pembuatan website.`
+            `Halo pasar.web.id, saya dari ${content.nama} ingin konsultasi pembuatan website.`
           )}
         />
       </div>

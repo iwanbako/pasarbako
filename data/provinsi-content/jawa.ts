@@ -17,7 +17,7 @@ export const jawa: Record<string, ProvinsiContent> = {
       subtitle: "Solusi digital untuk startup, korporasi, UMKM, hingga agensi di seluruh DKI Jakarta.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Jakarta Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Jakarta Pilih pasar.web.id?",
       subtitle: "Jakarta adalah pusat bisnis Indonesia. Website Anda harus sekelas standar nasional, bukan sekadar template.",
       points: [
         {
@@ -60,7 +60,7 @@ export const jawa: Record<string, ProvinsiContent> = {
     },
     testimonial: {
       title: "Testimoni Klien dari Jakarta",
-      subtitle: "Kata mereka yang sudah merasakan dampak nyata website KerabatWeb.",
+      subtitle: "Kata mereka yang sudah merasakan dampak nyata website pasar.web.id.",
     },
     pricingNote: "Harga berlaku untuk seluruh DKI Jakarta. Untuk proyek enterprise, tersedia paket Custom.",
     faqs: [
@@ -107,7 +107,7 @@ export const jawa: Record<string, ProvinsiContent> = {
       subtitle: "Untuk brand fashion Bandung, wisata Bogor, properti Bekasi, hingga startup digital di seluruh Jabar.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Jabar Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Jabar Pilih pasar.web.id?",
       subtitle: "Jabar adalah pusat kreatif Indonesia. Website Anda harusnya punya karakter, bukan template generik.",
       points: [
         {
@@ -150,7 +150,7 @@ export const jawa: Record<string, ProvinsiContent> = {
     },
     testimonial: {
       title: "Testimoni Klien dari Jawa Barat",
-      subtitle: "Kata mereka yang sudah go-digital bersama KerabatWeb.",
+      subtitle: "Kata mereka yang sudah go-digital bersama pasar.web.id.",
     },
     pricingNote: "Harga berlaku untuk seluruh Jabar, tanpa biaya tambahan.",
     faqs: [
@@ -197,7 +197,7 @@ export const jawa: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Semarang, batik Solo, wisata Borobudur, hingga bisnis properti di seluruh Jateng.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Jateng Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Jateng Pilih pasar.web.id?",
       subtitle: "Jateng kaya budaya dan potensi UMKM. Website yang tepat akan mengangkat produk Anda ke panggung nasional.",
       points: [
         {
@@ -287,7 +287,7 @@ export const jawa: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Jogja, wisata budaya, brand fashion, hingga startup kreatif di seluruh DIY.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Jogja Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Jogja Pilih pasar.web.id?",
       subtitle: "Jogja adalah kota kreatif dengan talenta luar biasa. Website Anda harusnya mencerminkan itu.",
       points: [
         {
@@ -377,7 +377,7 @@ export const jawa: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Surabaya, wisata Malang, properti Sidoarjo, hingga startup digital di seluruh Jatim.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Jatim Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Jatim Pilih pasar.web.id?",
       subtitle: "Jatim adalah provinsi dengan ekonomi terbesar kedua di Indonesia. Website yang tepat adalah investasi wajib.",
       points: [
         {
@@ -420,7 +420,7 @@ export const jawa: Record<string, ProvinsiContent> = {
     },
     testimonial: {
       title: "Testimoni Klien dari Jawa Timur",
-      subtitle: "Kata mereka yang sudah merasakan dampak website KerabatWeb.",
+      subtitle: "Kata mereka yang sudah merasakan dampak website pasar.web.id.",
     },
     pricingNote: "Harga berlaku untuk seluruh Jatim, tanpa biaya tambahan.",
     faqs: [
@@ -467,7 +467,7 @@ export const jawa: Record<string, ProvinsiContent> = {
       subtitle: "Untuk startup Tangerang, UMKM Serang, wisata Anyer, hingga korporasi Cilegon di seluruh Banten.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Banten Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Banten Pilih pasar.web.id?",
       subtitle: "Banten adalah gerbang barat Jawa. Website yang tepat akan membawa bisnis Anda bersaing di level nasional.",
       points: [
         {

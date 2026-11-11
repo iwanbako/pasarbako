@@ -17,7 +17,7 @@ export const sulawesi: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Manado, wisata Bunaken, hingga bisnis perikanan di seluruh Sulut.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Sulut Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Sulut Pilih pasar.web.id?",
       subtitle: "Sulut punya potensi wisata dan kuliner luar biasa. Website yang tepat akan mengeksposnya.",
       points: [
         {
@@ -60,7 +60,7 @@ export const sulawesi: Record<string, ProvinsiContent> = {
     },
     testimonial: {
       title: "Testimoni Klien dari Sulawesi Utara",
-      subtitle: "Kata mereka yang sudah merasakan dampak website KerabatWeb.",
+      subtitle: "Kata mereka yang sudah merasakan dampak website pasar.web.id.",
     },
     pricingNote: "Harga berlaku untuk seluruh Sulut, tanpa biaya tambahan.",
     faqs: [
@@ -107,7 +107,7 @@ export const sulawesi: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Palu, wisata Togean, hingga bisnis pertanian di seluruh Sulteng.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Sulteng Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Sulteng Pilih pasar.web.id?",
       subtitle: "Sulteng punya potensi wisata dan hasil bumi besar. Website yang tepat adalah kunci.",
       points: [
         {
@@ -197,7 +197,7 @@ export const sulawesi: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Makassar, wisata Toraja, properti, hingga startup digital di seluruh Sulsel.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Sulsel Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Sulsel Pilih pasar.web.id?",
       subtitle: "Sulsel adalah pusat ekonomi Indonesia Timur. Website yang tepat adalah investasi wajib.",
       points: [
         {
@@ -240,7 +240,7 @@ export const sulawesi: Record<string, ProvinsiContent> = {
     },
     testimonial: {
       title: "Testimoni Klien dari Sulawesi Selatan",
-      subtitle: "Kata mereka yang sudah merasakan dampak website KerabatWeb.",
+      subtitle: "Kata mereka yang sudah merasakan dampak website pasar.web.id.",
     },
     pricingNote: "Harga berlaku untuk seluruh Sulsel, tanpa biaya tambahan.",
     faqs: [
@@ -287,7 +287,7 @@ export const sulawesi: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Kendari, wisata Wakatobi, hingga bisnis pertanian di seluruh Sultra.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Sultra Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Sultra Pilih pasar.web.id?",
       subtitle: "Sultra punya potensi wisata bawah laut kelas dunia. Website yang tepat akan mengeksposnya.",
       points: [
         {
@@ -377,7 +377,7 @@ export const sulawesi: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner, wisata bahari, hingga bisnis pertanian di seluruh Gorontalo.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Gorontalo Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Gorontalo Pilih pasar.web.id?",
       subtitle: "Gorontalo punya potensi wisata dan hasil bumi besar. Website yang tepat adalah kunci.",
       points: [
         {
@@ -467,7 +467,7 @@ export const sulawesi: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Mamuju, wisata bahari, hingga bisnis pertanian di seluruh Sulbar.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Sulbar Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Sulbar Pilih pasar.web.id?",
       subtitle: "Sulbar adalah provinsi muda dengan potensi besar. Website yang tepat adalah kunci tumbuh.",
       points: [
         {

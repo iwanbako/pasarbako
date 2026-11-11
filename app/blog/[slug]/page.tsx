@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { blogPosts } from "@/data/blog-posts";
 import { BlogDetail } from "./BlogDetail";
 
-const SITE_URL = "https://kerabatweb.com";
+const SITE_URL = "https://pasar.web.id";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     keywords: post.keywords ?? [],
     alternates: { canonical: url },
     openGraph: {
-      title: `${post.title} | KerabatWeb`,
+      title: `${post.title} | pasar.web.id`,
       description: post.excerpt,
       url,
       type: "article",
@@ -105,7 +105,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
     },
     publisher: {
       "@type": "Organization",
-      name: "KerabatWeb",
+      name: "pasar.web.id",
       logo: {
         "@type": "ImageObject",
         url: `${SITE_URL}/web-app-manifest-192x192.png`,

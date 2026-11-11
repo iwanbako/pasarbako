@@ -17,27 +17,27 @@ import { PricingSection } from "@/components/sections/PricingSection";
 import { FaqSection } from "@/components/sections/FaqSection";
 import { FinalCtaSection } from "@/components/sections/FinalCtaSection";
 import { AllProvincesSection } from "@/components/sections/AllProvincesSection";
-import { MapSection } from "@/components/sections/MapSection"; // ← TAMBAH
+import { MapSection } from "@/components/sections/MapSection";
 
 import { provinsiContent } from "@/data/provinsi-content";
 
-const SITE_URL = "https://kerabatweb.com";
+const SITE_URL = "https://pasar.web.id";
 
 export const metadata: Metadata = {
   title: "Jasa Pembuatan Website Profesional, Cepat & Ramah SEO",
   description:
-    "Jasa pembuatan website landing page, company profile, dan toko online (e-commerce) bergaransi resmi. Pengerjaan kilat 3-5 hari, bebas domain & SSL, harga transparan mulai Rp 999rb.",
+    "Jasa pembuatan website landing page, company profile, dan toko online (e-commerce) bergaransi resmi. Pengerjaan kilat 3-5 hari, bebas domain & SSL, harga transparan mulai Rp 399rb.",
   keywords: [
     "jasa pembuatan website",
     "buat landing page murah",
     "jasa company profile profesional",
     "pembuatan toko online e-commerce",
     "jasa web design seo friendly",
-    "kerabatweb",
+    "pasar.web.id",
   ],
-  authors: [{ name: "KerabatWeb Team", url: SITE_URL }],
-  creator: "KerabatWeb",
-  publisher: "KerabatWeb",
+  authors: [{ name: "pasar.web.id Team", url: SITE_URL }],
+  creator: "pasar.web.id",
+  publisher: "pasar.web.id",
   robots: {
     index: true,
     follow: true,
@@ -53,22 +53,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "id_ID",
     url: SITE_URL,
-    title: "KerabatWeb - Jasa Pembuatan Website Profesional & Bergaransi",
+    title: "pasar.web.id - Jasa Pembuatan Website Profesional & Bergaransi",
     description:
       "Solusi digital bisnis Anda: Landing Page, Company Profile, dan E-Commerce dengan performa super cepat dan ramah SEO.",
-    siteName: "KerabatWeb",
+    siteName: "pasar.web.id",
     images: [
       {
         url: `${SITE_URL}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: "KerabatWeb - Jasa Pembuatan Website Profesional",
+        alt: "pasar.web.id - Jasa Pembuatan Website Profesional",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "KerabatWeb - Jasa Pembuatan Website Profesional & Bergaransi",
+    title: "pasar.web.id - Jasa Pembuatan Website Profesional & Bergaransi",
     description:
       "Buat website bisnis Anda sekarang juga. Cepat, aman, dan siap mendatangkan cuan!",
     images: [`${SITE_URL}/og-image.jpg`],
@@ -86,12 +86,12 @@ const pricingData = [
   {
     name: "Gold",
     target: "Paket Website Landing Page / UMKM",
-    priceNormal: "Rp 2.500.000",
-    pricePromo: "Rp 999.000",
-    diskon: "Diskon 60%",
+    priceNormal: "Rp 1.500.000",
+    pricePromo: "Rp 399.000",
+    diskon: "Diskon 73%",
     periode: "PER TAHUN",
     popular: false,
-    badge: null,
+    badge: "Hemat",
     features: [
       "Hosting 1 Tahun",
       "Gratis Domain",
@@ -201,23 +201,19 @@ const faqsData = [
 ];
 
 export default function HomePage() {
-  // ============================================================
-  // Daftar semua provinsi (untuk internal link di bawah CTA)
-  // ============================================================
   const allProvinsi = Object.values(provinsiContent).map((p) => ({
     nama: p.nama,
     slug: p.slug,
   }));
 
-  // Structured Data Schema.org JSON-LD
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    name: "KerabatWeb",
+    name: "pasar.web.id",
     image: `${SITE_URL}/og-image.jpg`,
     url: SITE_URL,
     telephone: "+6285938573419",
-    priceRange: "Rp 999.000 - Rp 4.500.000",
+    priceRange: "Rp 399.000 - Rp 4.500.000",
     address: {
       "@type": "PostalAddress",
       addressCountry: "ID",
@@ -229,7 +225,6 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Script Schema.org JSON-LD */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -252,16 +247,13 @@ export default function HomePage() {
           <FaqSection faqs={faqsData} waNumber={waNumber} />
           <FinalCtaSection waNumber={waNumber} />
 
-          {/* SEMUA PROVINSI (chip kecil klik-able) */}
           <AllProvincesSection provinsiList={allProvinsi} />
-
-          {/* PETA AREA LAYANAN (otomatis: Indonesia di homepage) */}
           <MapSection />
         </main>
         <Footer />
         <FloatingNav
           waDefault={waLink(
-            "Halo KerabatWeb, saya ingin konsultasi pembuatan website."
+            "Halo pasar.web.id, saya ingin konsultasi pembuatan website."
           )}
         />
       </div>

@@ -5,7 +5,7 @@ import { Header } from "@/components/common/Header";
 import { Footer } from "@/components/common/Footer";
 
 export const metadata: Metadata = {
-  title: "Halaman Tidak Ditemukan (404) | KerabatWeb",
+  title: "Halaman Tidak Ditemukan (404) | pasar.web.id",
   description: "Halaman yang Anda cari tidak ditemukan. Kembali ke beranda atau hubungi kami via WhatsApp.",
   robots: {
     index: false,
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
 };
 
-const SITE_URL = "https://kerabatweb.id";
+const SITE_URL = "https://pasar.web.id";
 const waNumber = "6285938573419";
 const waLink = (msg: string) =>
   `https://wa.me/${waNumber}?text=${encodeURIComponent(msg)}`;
@@ -60,7 +60,7 @@ export default function NotFound() {
             </Link>
             <a
               href={waLink(
-                "Halo KerabatWeb, saya tersesat di halaman 404. Bisa bantu?"
+                "Halo pasar.web.id, saya tersesat di halaman 404. Bisa bantu?"
               )}
               target="_blank"
               rel="noopener noreferrer"

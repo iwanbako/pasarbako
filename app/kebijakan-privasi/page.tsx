@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Header } from "@/components/common/Header";
 import { Footer } from "@/components/common/Footer";
 
-const SITE_URL = "https://kerabatweb.com";
+const SITE_URL = "https://pasar.web.id";
 
 // ============================================================
 // METADATA SEO
@@ -12,14 +12,14 @@ const SITE_URL = "https://kerabatweb.com";
 export const metadata: Metadata = {
   title: "Kebijakan Privasi",
   description:
-    "Kebijakan Privasi KerabatWeb. Pelajari bagaimana kami mengumpulkan, menggunakan, dan melindungi data pribadi Anda saat menggunakan layanan kami.",
+    "Kebijakan Privasi pasar.web.id. Pelajari bagaimana kami mengumpulkan, menggunakan, dan melindungi data pribadi Anda saat menggunakan layanan kami.",
   alternates: {
     canonical: `${SITE_URL}/kebijakan-privasi`,
   },
   openGraph: {
-    title: "Kebijakan Privasi | KerabatWeb",
+    title: "Kebijakan Privasi | pasar.web.id",
     description:
-      "Pelajari bagaimana KerabatWeb melindungi data pribadi dan privasi Anda.",
+      "Pelajari bagaimana pasar.web.id melindungi data pribadi dan privasi Anda.",
     url: `${SITE_URL}/kebijakan-privasi`,
     type: "website",
   },
@@ -56,7 +56,7 @@ export default function KebijakanPrivasiPage() {
               
               {/* Intro */}
               <p className="lead text-base sm:text-lg text-white mb-8">
-                Di <strong>KerabatWeb</strong>, privasi Anda adalah prioritas kami. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda saat Anda mengunjungi website <a href={SITE_URL}>{SITE_URL}</a> atau menggunakan layanan kami.
+                Di <strong>pasar.web.id</strong>, privasi Anda adalah prioritas kami. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda saat Anda mengunjungi website <a href={SITE_URL}>{SITE_URL}</a> atau menggunakan layanan kami.
               </p>
 
               {/* Section 1 */}
@@ -120,7 +120,7 @@ export default function KebijakanPrivasiPage() {
               </p>
               <div className="bg-[#003580] p-5 rounded-xl border border-[#0066f5] inline-block">
                 <p className="m-0 text-sm">
-                  📧 Email: <strong>halo@kerabatweb.com</strong><br />
+                  📧 Email: <strong>halo@pasar.web.id.com</strong><br />
                   📱 WhatsApp: <strong>+62 859-3857-3419</strong>
                 </p>
               </div>

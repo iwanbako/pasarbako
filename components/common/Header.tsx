@@ -7,7 +7,7 @@ import { provinsiContent } from "@/data/provinsi-content";
 import { getRegenciesOfProvince } from "@/lib/wilayah";
 
 const waNumber = "6285938573419";
-const waDefault = `https://wa.me/${waNumber}?text=${encodeURIComponent("Halo KerabatWeb, saya ingin konsultasi pembuatan website.")}`;
+const waDefault = `https://wa.me/${waNumber}?text=${encodeURIComponent("Halo pasar.web.id, saya ingin konsultasi pembuatan website.")}`;
 
 export const Header: React.FC = () => {
   const [isWilayahOpen, setIsWilayahOpen] = useState(false);
@@ -57,7 +57,7 @@ export const Header: React.FC = () => {
             </svg>
           </span>
           <span className="font-bold text-base sm:text-lg tracking-tight text-white">
-            Kerabat<span className="text-yellow-400">Web</span>
+            Pasar<span className="text-yellow-400">.Web.id</span>
           </span>
         </Link>
 

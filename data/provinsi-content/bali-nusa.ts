@@ -17,7 +17,7 @@ export const baliNusa: Record<string, ProvinsiContent> = {
       subtitle: "Untuk villa, hotel boutique, restoran, surf school, hingga UMKM kriya di seluruh Bali.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Bali Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Bali Pilih pasar.web.id?",
       subtitle: "Bali adalah destinasi global. Website Anda harusnya sekelas standar internasional.",
       points: [
         {
@@ -60,7 +60,7 @@ export const baliNusa: Record<string, ProvinsiContent> = {
     },
     testimonial: {
       title: "Testimoni Klien dari Bali",
-      subtitle: "Kata mereka yang sudah merasakan dampak website KerabatWeb.",
+      subtitle: "Kata mereka yang sudah merasakan dampak website pasar.web.id.",
     },
     pricingNote: "Harga berlaku untuk seluruh Bali. Untuk proyek villa atau hotel dengan sistem booking kompleks, tersedia paket Custom.",
     faqs: [
@@ -107,7 +107,7 @@ export const baliNusa: Record<string, ProvinsiContent> = {
       subtitle: "Untuk villa Lombok, UMKM kuliner Mataram, wisata Sumbawa, hingga bisnis pertanian di seluruh NTB.",
     },
     whyUs: {
-      title: "Mengapa Bisnis NTB Pilih KerabatWeb?",
+      title: "Mengapa Bisnis NTB Pilih pasar.web.id?",
       subtitle: "NTB adalah destinasi wisata kelas dunia (Mandalika, Rinjani). Website yang tepat akan mengangkat bisnis Anda.",
       points: [
         {
@@ -197,7 +197,7 @@ export const baliNusa: Record<string, ProvinsiContent> = {
       subtitle: "Untuk wisata Labuan Bajo, villa Sumba, UMKM Kupang, hingga bisnis pertanian di seluruh NTT.",
     },
     whyUs: {
-      title: "Mengapa Bisnis NTT Pilih KerabatWeb?",
+      title: "Mengapa Bisnis NTT Pilih pasar.web.id?",
       subtitle: "NTT punya destinasi wisata kelas dunia (Komodo, Sumba). Website yang tepat akan mengekspos bisnis Anda.",
       points: [
         {

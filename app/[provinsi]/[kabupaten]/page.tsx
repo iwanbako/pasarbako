@@ -21,7 +21,7 @@ import { FaqSection } from "@/components/sections/FaqSection";
 import { FinalCtaSection } from "@/components/sections/FinalCtaSection";
 import { OtherRegenciesSection } from "@/components/sections/OtherRegenciesSection";
 import { DistrictsSection } from "@/components/sections/DistrictsSection";
-import { MapSection } from "@/components/sections/MapSection"; // ← TAMBAH
+import { MapSection } from "@/components/sections/MapSection";
 
 import { findRegency, getAllRegencyParams } from "@/lib/wilayah";
 import { getLocalCharacter } from "@/lib/local-character";
@@ -30,7 +30,7 @@ import { generateKabupatenContent } from "@/lib/wilayah-content";
 // ============================================================
 // KONSTANTA
 // ============================================================
-const SITE_URL = "https://kerabatweb.com";
+const SITE_URL = "https://pasar.web.id";
 const waNumber = "6285938573419";
 const waLink = (msg: string) =>
   `https://wa.me/${waNumber}?text=${encodeURIComponent(msg)}`;
@@ -46,12 +46,12 @@ const pricingData = [
   {
     name: "Gold",
     target: "Paket Website Landing Page / UMKM",
-    priceNormal: "Rp 2.500.000",
-    pricePromo: "Rp 999.000",
-    diskon: "Diskon 60%",
+    priceNormal: "Rp 1.500.000",
+    pricePromo: "Rp 399.000",
+    diskon: "Diskon 73%",
     periode: "PER TAHUN",
     popular: false,
-    badge: null,
+    badge: "Hemat",
     features: [
       "Hosting 1 Tahun",
       "Gratis Domain",
@@ -152,7 +152,7 @@ export async function generateMetadata({
   const data = findRegency(provinsi, kabupaten);
   if (!data) {
     return {
-      title: { absolute: "Halaman Tidak Ditemukan | KerabatWeb" },
+      title: { absolute: "Halaman Tidak Ditemukan | pasar.web.id" },
       robots: { index: false, follow: false },
     };
   }
@@ -176,11 +176,11 @@ export async function generateMetadata({
       `web design ${content.nama}`,
       `website ${content.industri[0]} ${content.nama}`,
       `jasa website ${content.provinsi}`,
-      "kerabatweb",
+      "pasar.web.id",
     ],
-    authors: [{ name: "KerabatWeb Team", url: SITE_URL }],
-    creator: "KerabatWeb",
-    publisher: "KerabatWeb",
+    authors: [{ name: "pasar.web.id Team", url: SITE_URL }],
+    creator: "pasar.web.id",
+    publisher: "pasar.web.id",
     alternates: { canonical: url },
     robots: {
       index: true,
@@ -199,7 +199,7 @@ export async function generateMetadata({
       url,
       title: content.metaTitle,
       description: content.metaDescription,
-      siteName: "KerabatWeb",
+      siteName: "pasar.web.id",
       images: [
         {
           url: ogImage,
@@ -226,7 +226,7 @@ export function generateStaticParams() {
 }
 
 // ============================================================
-// PAGE (default export async — tanpa Suspense)
+// PAGE
 // ============================================================
 export default async function KabupatenPage({ params }: PageProps) {
   const { provinsi, kabupaten } = await params;
@@ -244,31 +244,25 @@ export default async function KabupatenPage({ params }: PageProps) {
   const url = `${SITE_URL}/${provinsi}/${kabupaten}`;
   const ogImage = `${SITE_URL}/og-image.jpg`;
 
-  // ============================================================
-  // TRIK AGGREGATE RATING DINAMIS (Berbeda tiap kabupaten)
-  // ============================================================
   const hash = provinsi.length + kabupaten.length;
-  const ratingBase = 4.75 + ((hash * 7) % 25) / 100; // 4.75 - 4.99
-  const reviewCount = 120 + ((hash * 213) % 850); // 120 - 970 ulasan
+  const ratingBase = 4.75 + ((hash * 7) % 25) / 100;
+  const reviewCount = 120 + ((hash * 213) % 850);
 
-  // ============================================================
-  // JSON-LD: PRODUCT SCHEMA
-  // ============================================================
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: `Jasa Pembuatan Website ${content.namaLengkap}`,
     image: ogImage,
-    description: `Jasa pembuatan website profesional untuk bisnis, sekolah, dan company profile perusahaan di ${content.namaLengkap}, ${content.provinsi}. Perluas jangkauan usaha Anda dengan website dari KerabatWeb.`,
+    description: `Jasa pembuatan website profesional untuk bisnis, sekolah, dan company profile perusahaan di ${content.namaLengkap}, ${content.provinsi}. Perluas jangkauan usaha Anda dengan website dari pasar.web.id.`,
     brand: {
       "@type": "Brand",
-      name: "KerabatWeb",
+      name: "pasar.web.id",
     },
     offers: {
       "@type": "AggregateOffer",
       url: url,
       priceCurrency: "IDR",
-      lowPrice: "999000",
+      lowPrice: "399000",
       highPrice: "4500000",
       offerCount: "3",
       priceValidUntil: "2026-12-31",
@@ -282,9 +276,6 @@ export default async function KabupatenPage({ params }: PageProps) {
     },
   };
 
-  // ============================================================
-  // JSON-LD FAQPage
-  // ============================================================
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -298,9 +289,6 @@ export default async function KabupatenPage({ params }: PageProps) {
     })),
   };
 
-  // ============================================================
-  // BREADCRUMB ITEMS (visual)
-  // ============================================================
   const breadcrumbItems = [
     { label: "Beranda", href: "/" },
     { label: content.provinsi, href: `/${provinsi}` },
@@ -309,7 +297,6 @@ export default async function KabupatenPage({ params }: PageProps) {
 
   return (
     <>
-      {/* Structured Data (Product & FAQ) */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -325,7 +312,6 @@ export default async function KabupatenPage({ params }: PageProps) {
         <Breadcrumb items={breadcrumbItems} />
 
         <main className="flex-1 w-full">
-          {/* 1. HERO — SWAP: badge tampil sebagai H1, headline tampil sebagai badge */}
           <HeroSection
             waNumber={waNumber}
             badge={content.hero.headline}
@@ -334,32 +320,26 @@ export default async function KabupatenPage({ params }: PageProps) {
             ctaText={content.hero.ctaText}
           />
 
-          {/* 2. SERVICES */}
           <ServicesSection
             title={content.services.title}
             subtitle={content.services.subtitle}
           />
 
-          {/* 3. WORKFLOW */}
           <WorkflowSection
             title={`4 Langkah Mudah Punya Website di ${content.namaLengkap}`}
             subtitle={`Proses cepat, transparan, dan tidak ribet. Kami dampingi bisnis di ${content.namaLengkap}, ${content.provinsi} dari nol sampai website online.`}
           />
 
-          {/* 4. WHY US */}
           <WhyUsSection
             title={content.whyUs.title}
             subtitle={content.whyUs.subtitle}
             points={content.whyUs.points}
           />
 
-          {/* 5. GUARANTEE */}
           <GuaranteeSection />
 
-          {/* 6. TECH PARTNERS */}
           <TechPartners />
 
-          {/* 7. PROBLEM & SOLUTION */}
           <ProblemSolutionSection
             title={content.problemSolution.title}
             subtitle={content.problemSolution.subtitle}
@@ -367,24 +347,20 @@ export default async function KabupatenPage({ params }: PageProps) {
             solutions={content.problemSolution.solutions}
           />
 
-          {/* 8. PORTFOLIO */}
           <PortfolioSection
             title={content.portfolio.title}
             subtitle={content.portfolio.subtitle}
             kabupaten={content.namaLengkap}
           />
 
-          {/* 9. TESTIMONIAL */}
           <TestimonialSection
             title={content.testimonial.title}
             subtitle={content.testimonial.subtitle}
             kabupaten={content.namaLengkap}
           />
 
-          {/* 10. WEB vs SOSMED */}
           <WebVsSosmedSection />
 
-          {/* 11. PRICING */}
           <PricingSection
             pricing={pricingData}
             waNumber={waNumber}
@@ -392,17 +368,14 @@ export default async function KabupatenPage({ params }: PageProps) {
             note={content.pricingNote}
           />
 
-          {/* 12. FAQ */}
           <FaqSection faqs={content.faqs} waNumber={waNumber} />
 
-          {/* 13. FINAL CTA */}
           <FinalCtaSection
             waNumber={waNumber}
             title={content.finalCta.title}
             subtitle={content.finalCta.subtitle}
           />
 
-          {/* 14. KABUPATEN LAIN */}
           <OtherRegenciesSection
             provinsiName={content.provinsi}
             provinsiSlug={provinsi}
@@ -410,14 +383,12 @@ export default async function KabupatenPage({ params }: PageProps) {
             regencies={data.province.regencies}
           />
 
-          {/* 15. DAFTAR KECAMATAN */}
           <DistrictsSection
             provinsi={content.provinsi}
             kabupaten={content.namaLengkap}
             districts={content.districts}
           />
 
-          {/* 16. PETA AREA LAYANAN — otomatis deteksi slug => peta batas kabupaten (z=10) */}
           <MapSection />
         </main>
 
@@ -425,7 +396,7 @@ export default async function KabupatenPage({ params }: PageProps) {
 
         <FloatingNav
           waDefault={waLink(
-            `Halo KerabatWeb, saya dari ${content.namaLengkap}, ${content.provinsi} ingin konsultasi pembuatan website.`
+            `Halo pasar.web.id, saya dari ${content.namaLengkap}, ${content.provinsi} ingin konsultasi pembuatan website.`
           )}
         />
       </div>

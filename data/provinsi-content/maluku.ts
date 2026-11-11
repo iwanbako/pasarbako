@@ -14,7 +14,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
     },
     services: { title: "Layanan Website untuk Bisnis Maluku", subtitle: "Untuk UMKM kuliner Ambon, wisata bahari, hingga bisnis perikanan di seluruh Maluku." },
     whyUs: {
-      title: "Mengapa Bisnis Maluku Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Maluku Pilih pasar.web.id?",
       subtitle: "Maluku adalah kepulauan dengan kekayaan laut dan budaya luar biasa. Website yang tepat akan mengeksposnya.",
       points: [
         { title: "Spesialis Wisata Bahari", description: "Banda Neira, Saparua, dan pulau-pulau Maluku punya keindahan bawah laut — kami bantu bisnis wisata Anda dikenal." },
@@ -55,7 +55,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
     },
     services: { title: "Layanan Website untuk Bisnis Malut", subtitle: "Untuk UMKM kuliner Ternate, wisata bahari, hingga bisnis rempah di seluruh Malut." },
     whyUs: {
-      title: "Mengapa Bisnis Malut Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Malut Pilih pasar.web.id?",
       subtitle: "Malut punya sejarah rempah dunia dan wisata bahari indah. Website yang tepat akan mengangkat bisnis Anda.",
       points: [
         { title: "Spesialis Rempah & Wisata Bahari", description: "Malut adalah asal rempah cengkeh dan pala — kami bantu produk Anda tampil premium secara online." },
@@ -96,7 +96,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
     },
     services: { title: "Layanan Website untuk Bisnis Papua Barat", subtitle: "Untuk resort Raja Ampat, UMKM Sorong, wisata bahari, hingga bisnis perikanan di seluruh Papua Barat." },
     whyUs: {
-      title: "Mengapa Bisnis Papua Barat Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Papua Barat Pilih pasar.web.id?",
       subtitle: "Raja Ampat adalah destinasi diving terbaik dunia. Website yang tepat akan mengekspos bisnis Anda.",
       points: [
         { title: "Spesialis Wisata Raja Ampat", description: "Raja Ampat adalah ikon wisata global — kami bantu resort, liveaboard, dan tour operator dikenal wisatawan internasional." },
@@ -137,7 +137,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
     },
     services: { title: "Layanan Website untuk Bisnis Papua", subtitle: "Untuk UMKM kuliner Jayapura, wisata budaya, hingga bisnis pertanian di seluruh Papua." },
     whyUs: {
-      title: "Mengapa Bisnis Papua Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Papua Pilih pasar.web.id?",
       subtitle: "Papua punya kekayaan budaya dan alam luar biasa. Website yang tepat akan mengeksposnya.",
       points: [
         { title: "Spesialis Wisata Budaya Papua", description: "Lembah Baliem dan budaya Papua punya daya tarik global — kami bantu bisnis wisata Anda dikenal." },
@@ -178,7 +178,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
     },
     services: { title: "Layanan Website untuk Bisnis Papua Selatan", subtitle: "Untuk UMKM Merauke, wisata alam, hingga bisnis pertanian di seluruh Papua Selatan." },
     whyUs: {
-      title: "Mengapa Bisnis Papua Selatan Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Papua Selatan Pilih pasar.web.id?",
       subtitle: "Papua Selatan adalah provinsi muda dengan potensi besar. Website yang tepat adalah kunci tumbuh.",
       points: [
         { title: "Spesialis Bisnis Pertanian", description: "Papua Selatan punya potensi pertanian besar — kami bantu produk Anda tampil premium secara online." },
@@ -219,7 +219,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
     },
     services: { title: "Layanan Website untuk Bisnis Papua Tengah", subtitle: "Untuk UMKM Timika, wisata bahari Nabire, hingga bisnis tambang di seluruh Papua Tengah." },
     whyUs: {
-      title: "Mengapa Bisnis Papua Tengah Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Papua Tengah Pilih pasar.web.id?",
       subtitle: "Papua Tengah punya potensi alam dan wisata besar. Website yang tepat adalah kunci.",
       points: [
         { title: "Spesialis Bisnis Tambang", description: "Timika adalah pusat tambang besar. Kami bantu bisnis Anda tampil profesional untuk klien B2B." },
@@ -260,7 +260,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
     },
     services: { title: "Layanan Website untuk Bisnis Papua Pegunungan", subtitle: "Untuk UMKM Wamena, wisata budaya Lembah Baliem, hingga bisnis pertanian di seluruh Papua Pegunungan." },
     whyUs: {
-      title: "Mengapa Bisnis Papua Pegunungan Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Papua Pegunungan Pilih pasar.web.id?",
       subtitle: "Papua Pegunungan punya kekayaan budaya yang unik. Website yang tepat akan mengeksposnya.",
       points: [
         { title: "Spesialis Wisata Budaya", description: "Lembah Baliem dan budaya Papua punya daya tarik global — kami bantu bisnis wisata Anda dikenal." },
@@ -301,7 +301,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
     },
     services: { title: "Layanan Website untuk Bisnis Papua Barat Daya", subtitle: "Untuk resort Raja Ampat, UMKM Sorong, wisata bahari, hingga bisnis perikanan di seluruh Papua Barat Daya." },
     whyUs: {
-      title: "Mengapa Bisnis Papua Barat Daya Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Papua Barat Daya Pilih pasar.web.id?",
       subtitle: "Raja Ampat adalah destinasi diving terbaik dunia. Website yang tepat akan mengekspos bisnis Anda.",
       points: [
         { title: "Spesialis Wisata Raja Ampat", description: "Raja Ampat adalah ikon wisata global — kami bantu resort, liveaboard, dan tour operator dikenal wisatawan internasional." },

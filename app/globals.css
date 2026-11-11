@@ -1,47 +1,48 @@
 @import "tailwindcss";
-@plugin "@tailwindcss/typography"; /* <--- TAMBAHKAN BARIS INI */
+@plugin "@tailwindcss/typography";
 
 /* ============================================================
-   1. THEME — Palet Booking.com & Animasi
+   1. THEME — Palet Booking.com & Animasi Agensi Web
    ============================================================ */
 @theme {
-  /* Booking Blue — primary */
+  /* Booking Blue — primary brand & trust */
   --color-booking-50: #e6f0fa;
   --color-booking-100: #cce0f5;
   --color-booking-200: #99c2eb;
   --color-booking-300: #66a3e0;
   --color-booking-400: #3385d6;
-  --color-booking-500: #0071c2; /* link & aksen */
+  --color-booking-500: #0071c2; /* link & aksen interaktif */
   --color-booking-600: #005999;
-  --color-booking-700: #003580; /* brand utama */
+  --color-booking-700: #003580; /* brand utama / navbar */
   --color-booking-800: #002a66;
   --color-booking-900: #001f4d;
 
-  /* Booking Yellow — CTA */
+  /* Booking Yellow — CTA / Conversion Highlighter */
   --color-yellow-50: #fff9e6;
   --color-yellow-100: #fff3cc;
   --color-yellow-200: #ffe799;
   --color-yellow-300: #ffdb66;
   --color-yellow-400: #fecd33;
-  --color-yellow-500: #febb02; /* utama */
+  --color-yellow-500: #febb02; /* CTA utama */
   --color-yellow-600: #e0a800;
 
-  /* Netral */
-  --color-gray-50: #f5f5f5;
-  --color-gray-100: #ebebeb;
-  --color-gray-200: #d9d9d9;
-  --color-gray-300: #b3b3b3;
-  --color-gray-400: #808080;
-  --color-gray-500: #666666;
-  --color-gray-600: #4d4d4d;
-  --color-gray-700: #333333;
-  --color-gray-800: #1a1a1a;
-  --color-gray-900: #000000;
+  /* Netral Modern */
+  --color-gray-50: #f8fafc;
+  --color-gray-100: #f1f3f5;
+  --color-gray-200: #e2e8f0;
+  --color-gray-300: #cbd5e1;
+  --color-gray-400: #94a3b8;
+  --color-gray-500: #64748b;
+  --color-gray-600: #475569;
+  --color-gray-700: #334155;
+  --color-gray-800: #1e293b;
+  --color-gray-900: #0f172a;
 
   /* Animasi Utility */
-  --animate-fade-in: fade-in 0.6s ease-out both;
-  --animate-fade-up: fade-up 0.6s ease-out both;
-  --animate-slide-down: slide-down 0.5s ease-out both;
+  --animate-fade-in: fade-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-fade-up: fade-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-slide-down: slide-down 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 /* ============================================================
@@ -53,12 +54,12 @@
 }
 
 @keyframes fade-up {
-  from { opacity: 0; transform: translateY(12px); }
+  from { opacity: 0; transform: translateY(16px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes slide-down {
-  from { opacity: 0; transform: translateY(-8px); }
+  from { opacity: 0; transform: translateY(-10px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
@@ -74,7 +75,7 @@
   body {
     font-family: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
     background-color: #ffffff;
-    color: #1a1a1a;
+    color: #1e293b;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -85,13 +86,13 @@
   }
 
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
   }
   ::-webkit-scrollbar-track {
-    background: #f5f5f5;
+    background: #f1f3f5;
   }
   ::-webkit-scrollbar-thumb {
-    background: #d9d9d9;
+    background: #cbd5e1;
     border-radius: 9999px;
   }
   ::-webkit-scrollbar-thumb:hover {
@@ -102,31 +103,30 @@
 /* ============================================================
    4. UTILITY CUSTOM & SCROLL REVEAL ANIMATIONS
    ============================================================ */
-
 .reveal-bottom {
   opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateY(30px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: opacity, transform;
 }
 
 .reveal-left {
   opacity: 0;
-  transform: translateX(-40px);
-  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateX(-30px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: opacity, transform;
 }
 
 .reveal-right {
   opacity: 0;
-  transform: translateX(40px);
-  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateX(30px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
   will-change: opacity, transform;
 }
 
 .reveal-fade {
   opacity: 0;
-  transition: opacity 0.8s ease-out;
+  transition: opacity 0.7s ease-out;
   will-change: opacity;
 }
 
@@ -141,64 +141,83 @@
   opacity: 1;
 }
 
-/* Card ala Booking.com */
+/* Card ala Booking.com dengan sentuhan Agensi Web Modern */
 .bk-card {
   background: #ffffff;
-  border: 1px solid #d9d9d9;
-  border-radius: 8px;
-  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .bk-card:hover {
   border-color: #0071c2;
-  box-shadow: 0 4px 16px rgba(0, 53, 128, 0.1);
+  box-shadow: 0 10px 30px -5px rgba(0, 53, 128, 0.08);
+  transform: translateY(-2px);
 }
 
-/* Tombol kuning ala Booking.com */
+/* Tombol kuning khas Booking.com (Sangat kuat untuk konversi/CTA) */
 .bk-btn-yellow {
   background-color: #febb02;
   color: #003580;
   font-weight: 700;
-  border-radius: 4px;
-  transition: all 0.15s ease;
+  border-radius: 6px;
+  transition: all 0.2s ease;
   display: inline-block;
   text-align: center;
   border: 1px solid #febb02;
+  box-shadow: 0 2px 4px rgba(254, 187, 2, 0.2);
 }
 .bk-btn-yellow:hover {
   background-color: #ffcb3d;
   border-color: #ffcb3d;
   transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(254, 187, 2, 0.35);
 }
 
-/* Tombol biru ala Booking.com */
+/* Tombol biru utama */
 .bk-btn-blue {
   background-color: #0071c2;
   color: white;
   font-weight: 700;
-  border-radius: 4px;
-  transition: all 0.15s ease;
+  border-radius: 6px;
+  transition: all 0.2s ease;
   display: inline-block;
   text-align: center;
   border: 1px solid #0071c2;
+  box-shadow: 0 2px 4px rgba(0, 113, 194, 0.2);
 }
 .bk-btn-blue:hover {
   background-color: #005999;
   border-color: #005999;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 113, 194, 0.35);
 }
 
-/* Tombol outline ala Booking.com */
+/* Tombol outline */
 .bk-btn-outline {
   background-color: white;
   color: #0071c2;
   font-weight: 700;
-  border: 1px solid #0071c2;
-  border-radius: 4px;
-  transition: all 0.15s ease;
+  border: 1.5px solid #0071c2;
+  border-radius: 6px;
+  transition: all 0.2s ease;
   display: inline-block;
   text-align: center;
 }
 .bk-btn-outline:hover {
   background-color: #e6f0fa;
+  transform: translateY(-1px);
+}
+
+/* Highlight badge / pill ala Booking.com */
+.bk-badge-promo {
+  background-color: #003580;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 /* Highlight kuning di belakang teks */
@@ -206,7 +225,7 @@
   background-color: #febb02;
   color: #003580;
   padding: 0.05em 0.4em;
-  border-radius: 3px;
+  border-radius: 4px;
   display: inline;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
@@ -214,13 +233,13 @@
 
 /* Divider */
 .bk-divider {
-  border-top: 1px solid #d9d9d9;
+  border-top: 1px solid #e2e8f0;
 }
 
 /* ============================================================
    5. AKSESIBILITAS
    ============================================================ */
-@media (prefers-reduced-motion: reduce) {
+@media (prereduced-motion: reduce) {
   *,
   *::before,
   *::after {

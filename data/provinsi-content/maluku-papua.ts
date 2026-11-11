@@ -17,7 +17,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Ambon, wisata bahari, hingga bisnis perikanan di seluruh Maluku.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Maluku Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Maluku Pilih pasar.web.id?",
       subtitle: "Maluku adalah kepulauan dengan kekayaan laut dan budaya luar biasa. Website yang tepat akan mengeksposnya.",
       points: [
         {
@@ -107,7 +107,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Ternate, wisata bahari, hingga bisnis rempah di seluruh Malut.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Malut Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Malut Pilih pasar.web.id?",
       subtitle: "Malut punya sejarah rempah dunia dan wisata bahari indah. Website yang tepat akan mengangkat bisnis Anda.",
       points: [
         {
@@ -197,7 +197,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
       subtitle: "Untuk resort Raja Ampat, UMKM Sorong, wisata bahari, hingga bisnis perikanan di seluruh Papua Barat.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Papua Barat Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Papua Barat Pilih pasar.web.id?",
       subtitle: "Raja Ampat adalah destinasi diving terbaik dunia. Website yang tepat akan mengekspos bisnis Anda.",
       points: [
         {
@@ -287,7 +287,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Jayapura, wisata budaya, hingga bisnis pertanian di seluruh Papua.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Papua Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Papua Pilih pasar.web.id?",
       subtitle: "Papua punya kekayaan budaya dan alam luar biasa. Website yang tepat akan mengeksposnya.",
       points: [
         {
@@ -377,7 +377,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM Merauke, wisata alam, hingga bisnis pertanian di seluruh Papua Selatan.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Papua Selatan Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Papua Selatan Pilih pasar.web.id?",
       subtitle: "Papua Selatan adalah provinsi muda dengan potensi besar. Website yang tepat adalah kunci tumbuh.",
       points: [
         {
@@ -467,7 +467,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM Timika, wisata bahari Nabire, hingga bisnis tambang di seluruh Papua Tengah.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Papua Tengah Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Papua Tengah Pilih pasar.web.id?",
       subtitle: "Papua Tengah punya potensi alam dan wisata besar. Website yang tepat adalah kunci.",
       points: [
         {
@@ -557,7 +557,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM Wamena, wisata budaya Lembah Baliem, hingga bisnis pertanian di seluruh Papua Pegunungan.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Papua Pegunungan Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Papua Pegunungan Pilih pasar.web.id?",
       subtitle: "Papua Pegunungan punya kekayaan budaya yang unik. Website yang tepat akan mengeksposnya.",
       points: [
         {
@@ -647,7 +647,7 @@ export const malukuPapua: Record<string, ProvinsiContent> = {
       subtitle: "Untuk resort Raja Ampat, UMKM Sorong, wisata bahari, hingga bisnis perikanan di seluruh Papua Barat Daya.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Papua Barat Daya Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Papua Barat Daya Pilih pasar.web.id?",
       subtitle: "Raja Ampat adalah destinasi diving terbaik dunia. Website yang tepat akan mengekspos bisnis Anda.",
       points: [
         {

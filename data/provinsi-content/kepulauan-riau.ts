@@ -17,7 +17,7 @@ export const kepulauanRiau: Record<string, ProvinsiContent> = {
       subtitle: "Untuk industri dan logistik Batam, pariwisata Bintan, UMKM kuliner Tanjungpinang, hingga bisnis maritim Natuna dan Anambas.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Kepri Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Kepri Pilih pasar.web.id?",
       subtitle: "Kepri adalah gerbang perdagangan dan wisata di selatan Selat Malaka. Website Anda harus cepat, profesional, dan siap internasional.",
       points: [
         {
@@ -60,7 +60,7 @@ export const kepulauanRiau: Record<string, ProvinsiContent> = {
     },
     testimonial: {
       title: "Testimoni Klien dari Kepulauan Riau",
-      subtitle: "Kata mereka yang sudah go-digital bersama KerabatWeb di Batam, Bintan, dan Tanjungpinang.",
+      subtitle: "Kata mereka yang sudah go-digital bersama pasar.web.id di Batam, Bintan, dan Tanjungpinang.",
     },
     pricingNote: "Harga berlaku untuk seluruh Kepulauan Riau. Untuk proyek enterprise dan multibahasa, tersedia paket Custom.",
     faqs: [

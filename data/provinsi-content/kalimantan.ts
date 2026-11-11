@@ -17,7 +17,7 @@ export const kalimantan: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Pontianak, bisnis sawit, properti, hingga wisata di seluruh Kalbar.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Kalbar Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Kalbar Pilih pasar.web.id?",
       subtitle: "Kalbar adalah gerbang barat Kalimantan. Website yang tepat akan membawa bisnis Anda menembus pasar nasional.",
       points: [
         {
@@ -107,7 +107,7 @@ export const kalimantan: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM, bisnis sawit, wisata sungai, hingga properti di seluruh Kalteng.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Kalteng Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Kalteng Pilih pasar.web.id?",
       subtitle: "Kalteng punya potensi alam dan wisata besar. Website yang tepat adalah kunci untuk mengeksposnya.",
       points: [
         {
@@ -197,7 +197,7 @@ export const kalimantan: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Banjarmasin, pasar terapung, hingga bisnis tambang dan properti di seluruh Kalsel.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Kalsel Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Kalsel Pilih pasar.web.id?",
       subtitle: "Kalsel adalah pusat ekonomi Kalimantan Selatan. Website yang tepat adalah pembeda.",
       points: [
         {
@@ -287,7 +287,7 @@ export const kalimantan: Record<string, ProvinsiContent> = {
       subtitle: "Untuk korporasi tambang, properti Balikpapan, startup, hingga UMKM di seluruh Kaltim.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Kaltim Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Kaltim Pilih pasar.web.id?",
       subtitle: "Kaltim adalah calon ibu kota baru. Standar website Anda harus sekelas nasional, bukan asal jadi.",
       points: [
         {
@@ -330,7 +330,7 @@ export const kalimantan: Record<string, ProvinsiContent> = {
     },
     testimonial: {
       title: "Testimoni Klien dari Kalimantan Timur",
-      subtitle: "Kata mereka yang sudah merasakan dampak website KerabatWeb.",
+      subtitle: "Kata mereka yang sudah merasakan dampak website pasar.web.id.",
     },
     pricingNote: "Harga berlaku untuk seluruh Kaltim. Untuk proyek enterprise, tersedia paket Custom.",
     faqs: [
@@ -377,7 +377,7 @@ export const kalimantan: Record<string, ProvinsiContent> = {
       subtitle: "Untuk UMKM kuliner Tarakan, wisata bahari, hingga bisnis pertanian di seluruh Kaltara.",
     },
     whyUs: {
-      title: "Mengapa Bisnis Kaltara Pilih KerabatWeb?",
+      title: "Mengapa Bisnis Kaltara Pilih pasar.web.id?",
       subtitle: "Kaltara adalah provinsi termuda di Kalimantan. Website yang tepat adalah kunci tumbuh.",
       points: [
         {

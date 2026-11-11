@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 // ============================================================
 // KONSTANTA
 // ============================================================
-const SITE_URL = "https://kerabatweb.com";
-const SITE_NAME = "KerabatWeb";
+const SITE_URL = "https://pasar.web.id";
+const SITE_NAME = "pasar.web.id";
 
 // ============================================================
 // METADATA
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
 
   title: {
-    default: "KerabatWeb - Jasa Pembuatan Website Profesional, Cepat & Ramah SEO",
+    default: "pasar.web.id - Jasa Pembuatan Website Profesional, Cepat & Ramah SEO",
     template: `%s | ${SITE_NAME}`,
   },
 
@@ -42,10 +42,10 @@ export const metadata: Metadata = {
     "jasa company profile profesional",
     "pembuatan toko online e-commerce",
     "jasa web design seo friendly",
-    "kerabatweb",
+    "pasar.web.id",
   ],
 
-  authors: [{ name: "KerabatWeb Team", url: SITE_URL }],
+  authors: [{ name: "pasar.web.id Team", url: SITE_URL }],
   creator: SITE_NAME,
   publisher: SITE_NAME,
 
@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     locale: "id_ID",
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: "KerabatWeb - Jasa Pembuatan Website Profesional & Bergaransi",
+    title: "pasar.web.id - Jasa Pembuatan Website Profesional & Bergaransi",
     description:
       "Solusi digital bisnis Anda: Landing Page, Company Profile, dan E-Commerce dengan performa super cepat dan ramah SEO.",
     images: [
@@ -89,14 +89,14 @@ export const metadata: Metadata = {
         url: "/web-app-manifest-512x512.png", 
         width: 512,
         height: 512,
-        alt: "KerabatWeb Logo",
+        alt: "pasar.web.id Logo",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "KerabatWeb - Jasa Pembuatan Website Profesional & Bergaransi",
+    title: "pasar.web.id - Jasa Pembuatan Website Profesional & Bergaransi",
     description:
       "Buat website bisnis Anda sekarang juga. Cepat, aman, dan siap mendatangkan cuan!",
     images: ["/web-app-manifest-512x512.png"],

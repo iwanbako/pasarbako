@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kerabatweb.com/sitemap.xml
-Host: https://kerabatweb.com
+Sitemap: https://pasar.web.id/sitemap.xml
+Host: https://pasar.web.id
